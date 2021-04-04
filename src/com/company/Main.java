@@ -1,5 +1,8 @@
 package com.company;
 
+import com.company.algorithms.javapuzzlers.Oddity;
+
+import static com.company.algorithms.javapuzzlers.Oddity.isOdd;
 import static com.company.algorithms.leetcode.ConvertANumberToHexadecimal.*;
 
 public class Main {
@@ -39,7 +42,13 @@ public class Main {
 
 //        System.out.println(toHex(4512));
 
-        System.out.println(convertANumberToHexadecimal(0));
+//        System.out.println(convertANumberToHexadecimal(0));
+
+//        Puzzle: 1
+//        System.out.println(isOdd(-2));
+        System.out.println(Oddity.isEven(-0));
+
+
 
     }
 }
