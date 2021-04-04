@@ -1,4 +1,4 @@
-package com.company;
+package com.company.algorithms;
 
 public class Palindrome {
     public static boolean isPalindrome(String s){

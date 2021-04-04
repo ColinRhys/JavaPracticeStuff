@@ -1,4 +1,4 @@
-package com.company;
+package com.company.datastructurestuff;
 
 import java.util.HashSet;
 import java.util.Iterator;

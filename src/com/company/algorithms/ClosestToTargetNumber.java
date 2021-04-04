@@ -1,4 +1,4 @@
-package com.company;
+package com.company.algorithms;
 
 public class ClosestToTargetNumber {
     // url = https://www.youtube.com/watch?v=GBuHSRDGZBY

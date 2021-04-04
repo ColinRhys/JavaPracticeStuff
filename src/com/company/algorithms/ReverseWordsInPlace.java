@@ -1,4 +1,4 @@
-package com.company;
+package com.company.algorithms;
 
 public class ReverseWordsInPlace {
 

@@ -1,6 +1,6 @@
 package com.company;
 
-import static com.company.DataStructureReviews.dataStructureReviewLinkedList;
+import static com.company.algorithms.leetcode.ConvertANumberToHexadecimal.*;
 
 public class Main {
 
@@ -35,6 +35,11 @@ public class Main {
 
 //        dataStructureReviewHashSet();
 
-        dataStructureReviewLinkedList();
+//        dataStructureReviewLinkedList();
+
+//        System.out.println(toHex(4512));
+
+        System.out.println(convertANumberToHexadecimal(0));
+
     }
 }
