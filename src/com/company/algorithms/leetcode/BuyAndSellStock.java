@@ -42,4 +42,13 @@ public class BuyAndSellStock {
 //        }
 //        return 1;
 //    }
+    public static int buyAndSellStock(int[] array){
+        int totalProfit = 0;
+        for(int i = 1; i <array.length ; i++){
+            if(array[i] > array[i-1]){
+                totalProfit += array[i] - array[i-1];
+            }
+        }
+        return totalProfit;
+    }
 }

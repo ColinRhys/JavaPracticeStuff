@@ -4,10 +4,11 @@ import com.company.algorithms.javapuzzlers.LongDivision;
 import com.company.algorithms.javapuzzlers.Oddity;
 import com.company.algorithms.javapuzzlers.TimeForAChange;
 
-import static com.company.algorithms.javapuzzlers.LongDivision.longDivision;
+import static com.company.algorithms.javapuzzlers.LongDivision.*;
 import static com.company.algorithms.javapuzzlers.Oddity.isOdd;
 import static com.company.algorithms.javapuzzlers.TimeForAChange.compareIntsToBigDecimal;
 import static com.company.algorithms.leetcode.ConvertANumberToHexadecimal.*;
+import static com.company.algorithms.leetcode.BuyAndSellStock.*;
 
 public class Main {
 
@@ -48,6 +49,9 @@ public class Main {
 
 //        System.out.println(convertANumberToHexadecimal(0));
 
+        //BuyAndSellStock
+        System.out.println(buyAndSellStock(new int[] {1,2,3,4,5}));
+
 //        Puzzle: 1
 //        System.out.println(isOdd(-2));
         //System.out.println(Oddity.isEven(-0));
@@ -56,6 +60,7 @@ public class Main {
 //        compareIntsToBigDecimal();
 
 //        Puzzle: 3
-        longDivision();
+//        longDivision();
+
     }
 }
